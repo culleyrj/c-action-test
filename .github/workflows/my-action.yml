@@ -15,7 +15,7 @@ jobs:
             
     #Job to build and test our C code
     build-and-test:
-        needs:[say-hello]
+        needs: [say-hello]
         runs-on: ubuntu-latest
         steps:
         
